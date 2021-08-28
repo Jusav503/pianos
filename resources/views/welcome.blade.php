@@ -1,5 +1,11 @@
-<x-app-layout>
+@extends('layouts.app')
 
+@section('title', 'Pianos' )
+@section('keywords', 'Pianos piano cola electronico digital' )
+@section('content', 'En esta web encontrarás un poco de historia acerca de los tipos de pianos, precios y más' )
+@section('image', '../images/piano-de-cola.webp' )
+
+@section('MainContent')
     {{-- Header image --}}
     <div class="h-screen p-10 flex items-center w-full z-40" style="background: url('../images/piano-background.jpg'); background-repeat: no-repeat; background-size: cover;">
         <div class="text-white">
@@ -65,4 +71,4 @@
             </div>
         </article>
     </div>
-</x-app-layout>
+@endsection
