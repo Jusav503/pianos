@@ -9,7 +9,7 @@
     </div>    
 
     {{-- Content --}}
-    <div class="bg-white mx-3 md:mx-10 p-3 md:p-10">
+    <div class="container">
         
         <article class="text-gray-500">
             <h1 class="text-3xl titles">¿Qué es un piano?</h1>
