@@ -1145,10 +1145,6 @@ select {
 	margin-left: auto;
 	margin-right: auto;
 }
-.mx-3 {
-	margin-left: 0.75rem;
-	margin-right: 0.75rem;
-}
 .my-3 {
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
@@ -1971,21 +1967,23 @@ select {
 	color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 .container {
-	margin-left: 0.75rem;
-	margin-right: 0.75rem;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80rem;
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-	padding: 0.75rem;
+	padding: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 640px) {
 
 	.container {
-		margin-left: 2.5rem;
-		margin-right: 2.5rem;
+		padding: 1.5rem;
 	}
+}
+@media (min-width: 1024px) {
 
 	.container {
-		padding: 2.5rem;
+		padding: 2rem;
 	}
 }
 .hover\:border-gray-300:hover {
@@ -2357,11 +2355,6 @@ select {
 		grid-column: span 1 / span 1;
 	}
 
-	.md\:mx-10 {
-		margin-left: 2.5rem;
-		margin-right: 2.5rem;
-	}
-
 	.md\:mt-0 {
 		margin-top: 0px;
 	}
@@ -2388,10 +2381,6 @@ select {
 
 	.md\:border-l {
 		border-left-width: 1px;
-	}
-
-	.md\:p-10 {
-		padding: 2.5rem;
 	}
 }
 @media (min-width: 1024px) {

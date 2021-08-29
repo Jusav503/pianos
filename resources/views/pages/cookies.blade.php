@@ -1,4 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('title', 'Cookies')
+
+@section('MainContent')
     <div class="container">
         <article class="text-gray-500">
             <h2 class="titles text-3xl">Políticas de cookies</h2>
@@ -67,4 +71,4 @@
             </div>
         </article>
     </div>
-</x-app-layout>
+@endsection

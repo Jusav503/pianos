@@ -1,4 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('title', 'Política de privacidad')
+
+@section('MainContent')
     <div class="container">
         <article class="text-gray-500">
             <h2 class="titles text-3xl">Política de privacidad</h2>
@@ -83,4 +87,4 @@
         </article>
         <p class="titles">Te recordamos que, para más información, puedes consultar nuestras páginas de Aviso Legal y Política de Cookies.</p>
     </div>
-</x-app-layout>
+@endsection

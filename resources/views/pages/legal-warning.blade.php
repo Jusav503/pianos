@@ -1,4 +1,8 @@
-<x-app-layout>
+@extends('layouts.app')
+
+@section('title', 'Aviso legal')
+
+@section('MainContent')
     <div class="container">
         <article class="text-gray-500">
             <h2 class="titles text-3xl">Aviso legal</h2>
@@ -64,4 +68,4 @@
             <p>Para ello, en aras de la transparencia y el ejercicio de tu derecho, nuestro deber es informarte sobre los datos personales que recabamos, almacenamos y tratamos y con qué finalidades, teniendo en cualquier momento la posibilidad de revocar libremente tu consentimiento.<br> Toda esta información la podrás encontrar en nuestra POLITICA DE PRIVACIDAD.</p>
         </article>
     </div>
-</x-app-layout>
+@endsection

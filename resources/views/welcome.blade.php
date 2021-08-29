@@ -3,7 +3,7 @@
 @section('title', 'Pianos' )
 @section('keywords', 'Pianos piano cola electronico digital' )
 @section('content', 'En esta web encontrarás un poco de historia acerca de los tipos de pianos, precios y más' )
-@section('image', '../images/piano-de-cola.webp' )
+@section('image', '../images/piano-de-cola.webp')
 
 @section('MainContent')
     {{-- Header image --}}
