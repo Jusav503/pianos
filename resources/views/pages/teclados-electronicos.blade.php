@@ -8,9 +8,14 @@
 @section('MainContent')
     <div class="container text-gray-500">
         <div>
+            <ul class="bg-gray-100 border border-gray-400 p-4 w-64">
+                <li><a href="#18333" class="text-lg text-black">➖ ¿Qué es un teclado electrónico?</a></li>
+                <li><a href="#590033" class="text-lg text-black">➖ Tipos de teclado electrónico</a></li>
+                <li><a href="#90283" class="text-lg text-black">➖ Los mejores teclados electrónicos del 2021</a></li>
+            </ul>
             <article>
                 <div class="flex flex-col">
-                    <h2 class="titles text-3xl text-center">¿Qué es un teclado electrónico? 🤔</h2>
+                    <h2 class="titles text-3xl text-center" id="18333">¿Qué es un teclado electrónico? 🤔</h2>
                     <figure class="flex justify-center">
                         <img src="{{ asset('../images/teclado-electronico.jpg') }}" width="500px" alt="teclado electrónico">
                     </figure>
@@ -33,7 +38,7 @@
             </article>
             <article class="grid sm:grid-cols-1 lg:grid-cols-3 p-4 justify-items-center gap-10">
                 <div class="lg:col-span-3 text-center">
-                    <h2 class="titles text-2xl">Tipos de teclados electrónicos </h2>
+                    <h2 class="titles text-2xl" id="590033">Tipos de teclados electrónicos </h2>
                     <p>Tienes que tener en cuenta que en el mundo de los teclados electrónicos o digitales existen tres
                         principales tipos: los portátiles o de escenario, comtemporáneos y verticales.</p>
                 </div>
@@ -58,7 +63,7 @@
 
         <div class="mt-5">
             <article>
-                <h2 class="titles text-3xl">🔥🎹¡Los mejores teclados electrónicos del 2021! 🎹🔥</h2>
+                <h2 class="titles text-3xl" id="90283">🔥🎹¡Los mejores teclados electrónicos del 2021! 🎹🔥</h2>
                 <p>Y ahora sí, sin mas que comentar, pasamos a ver los mejores teclados electrónicos del 2021. Esta lista
                     está basada en los mejores teclados calidad-precio del mercado.</p>
                 <div class="grid grid-col md:grid-cols-2 gap-7 p-6 border-2 rounded-xl shadow-lg mt-5">
