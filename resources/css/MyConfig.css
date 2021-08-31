@@ -1,2 +1,3 @@
 .titles{@apply mt-6 mb-3 text-black}
 .container{@apply bg-white max-w-6xl mx-auto p-4 lg:px-10}
+.cards{@apply bg-white rounded-xl border border-gray-100 shadow-lg p-4 transform motion-safe:hover:scale-110 flex flex-col justify-around}

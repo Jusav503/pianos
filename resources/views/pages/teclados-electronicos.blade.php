@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Mejores teclados electrónicos del 2021 🔥')
-@section('keywords', 'mejores teclados electronicos 2021 pianos electronico')
+@section('title', 'Mejores teclados electrónicos del 2021 🎹🔥')
+@section('keywords', 'mejores teclados electronicos 2021 pianos electronico digital')
 @section('content', 'En esta sección te mostraremos los mejores teclados electrónicos calidad-precio del 2021...')
 @section('image', '../images/teclado-electronico.jpg')
 
@@ -81,149 +81,181 @@
             </article>
 
             <div class="grid grid-col md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5">
-                {{-- <div x-data="{ showModal : false }" class="">
-                    <!-- Button -->
-                    <button @click="showModal = !showModal" class="px-4 py-2 text-sm bg-white rounded-xl border transition-colors duration-150 ease-linear border-gray-200 text-gray-500 focus:outline-none focus:ring-0 font-bold hover:bg-gray-50 focus:bg-indigo-50 focus:text-indigo">Open Modal</button>
-            
-                    <!-- Modal Background -->
-                    <div x-show="showModal" class="text-gray-500 flex items-center justify-center overflow-auto bg-opacity-40 left-0 right-0 top-0 bottom-0" x-transition:enter="transition ease duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                        <!-- Modal -->
-                        <div x-show="showModal" class="bg-white rounded-xl shadow-2xl p-6 sm:w-10/12 mx-10" @click.away="showModal = false" x-transition:enter="transition ease duration-100 transform" x-transition:enter-start="opacity-0 scale-90 translate-y-1" x-transition:enter-end="opacity-100 scale-100 translate-y-0" x-transition:leave="transition ease duration-100 transform" x-transition:leave-start="opacity-100 scale-100 translate-y-0" x-transition:leave-end="opacity-0 scale-90 translate-y-1">
-                            <!-- Title -->
-                            <span class="font-bold block text-2xl mb-3">🍺 Beer, beer, beer </span>
-                            <!-- Some beer 🍺 -->
-                            <p class="mb-5">beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer...</p>
-                            <p>beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer...</p>
-            
-                            <!-- Buttons -->
-                            <div class="text-right space-x-5 mt-5">
-                                <button @click="showModal = !showModal" class="px-4 py-2 text-sm bg-white rounded-xl border transition-colors duration-150 ease-linear border-gray-200 text-gray-500 focus:outline-none focus:ring-0 font-bold hover:bg-gray-50 focus:bg-indigo-50 focus:text-indigo">Cancel</button>
-                                <a href="https://www.buymeacoffee.com/fricki" target="_blank" class="px-4 py-2 text-sm bg-white rounded-xl border transition-colors duration-150 ease-linear border-gray-200 text-gray-500 focus:outline-none focus:ring-0 font-bold hover:bg-gray-50 focus:bg-indigo-50 focus:text-indigo">🍺 Buy me a beer!</a>
-                            </div>
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-principiante-y-niños.jpg')}}" alt="teclado para principiantes y niños">
+                    </figure>
+                    <div>
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Teclado estandar Instrumento Musical para Principiantes y niños
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Alomejor</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Construcción dura hecho de material plástico resistente, es fácil de usar para niños ya que está diseñado para niños, cada boton tiene diferentes colores y etiquetas lo cual es conveniente para que...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
                         </div>
                     </div>
                 </div>
-        
-                <div x-data="{ showModal2 : false }">
-                    <!-- Button -->
-                    <div @click="showModal2 = !showModal2" class="cursor-pointer px-4 py-2 text-sm bg-white rounded-xl border transition-colors duration-150 ease-linear border-gray-200 text-gray-500 focus:outline-none focus:ring-0 font-bold hover:bg-gray-50 focus:bg-indigo-50 focus:text-indigo">Open Modal</div>
-            
-                    <!-- Modal Background -->
-                    <div x-show="showModal2" class="text-gray-500 flex items-center justify-center overflow-auto bg-opacity-40 left-0 right-0 top-0 bottom-0" x-transition:enter="transition ease duration-300" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease duration-300" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                        <!-- Modal -->
-                        <div x-show="showModal2" class="bg-white rounded-xl shadow-2xl p-6 sm:w-10/12 mx-10" @click.away="showModal2 = false" x-transition:enter="transition ease duration-100 transform" x-transition:enter-start="opacity-0 scale-90 translate-y-1" x-transition:enter-end="opacity-100 scale-100 translate-y-0" x-transition:leave="transition ease duration-100 transform" x-transition:leave-start="opacity-100 scale-100 translate-y-0" x-transition:leave-end="opacity-0 scale-90 translate-y-1">
-                            <!-- Title -->
-                            <span class="font-bold block text-2xl mb-3">😲 Beer, beer, beer </span>
-                            <!-- Some beer 🍺 -->
-                            <p class="mb-5">beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer...</p>
-                            <p>beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer... beer, beer, beer...</p>
-            
-                            <!-- Buttons -->
-                            <div class="text-right space-x-5 mt-5">
-                                <button @click="showModal2 = !showModal2" class="px-4 py-2 text-sm bg-white rounded-xl transition-colors duration-150 ease-linear border-red-200  focus:outline-none focus:ring-0 font-bold hover:bg-red-100 focus:bg-indigo-50 focus:text-indigo">❌</button>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
 
-                <div class="rounded-xl border border-gray-100 shadow-lg p-4 transform motion-safe:hover:scale-110 ">
-                    <div class="flex flex-col justify-around">
-                        <figure>
-                            <img src="{{asset('../images/piano-contemporaneo.jpg')}}" alt="piano contemporaneo">
-                        </figure>
-                        <div class="mt-4">
-                            <a href="#"
-                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
-                                Woman standing under blue sky
-                            </a>
-                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem blanditiis unde
-                                asperiores? Officia amet perspiciatis ad quibusdam incidunt eaque, nobis, eveniet neque
-                                porro id commodi quisquam debitis!...
-                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
-                            </div>
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-rojo.jpg')}}" alt="teclado rojo">
+                    </figure>
+                    <div>
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Teclado Casio CT-S200RD rojo con 61 teclas
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Casio</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Este teclado ademas de tener un diseño bonito y compacto, esta hecho de buenos materiales, resistentes y agradables al tacto. Las teclas tienen un tacto suave y bajan y suben correctamente, el sonido es MUY BUENO, y su uso es bastante intuitivo...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
                         </div>
                     </div>
                 </div>
-                <div class="rounded-xl border border-gray-100 shadow-lg p-4 transform motion-safe:hover:scale-110 ">
-                    <div class="flex flex-col justify-around">
-                        <figure>
-                            <img src="{{asset('../images/piano-contemporaneo.jpg')}}" alt="piano contemporaneo">
-                        </figure>
-                        <div class="mt-4">
-                            <a href="#"
-                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
-                                Woman standing under blue sky
-                            </a>
-                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem blanditiis unde
-                                asperiores? Officia amet perspiciatis ad quibusdam incidunt eaque, nobis, eveniet neque
-                                porro id commodi quisquam debitis!...
-                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
-                            </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/piano-portatil.jpg')}}" alt="teclado portatil">
+                    </figure>
+                    <div>
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Teclado plegable portátil de Blackstar
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Black Star</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Teclado de piano portátil ligero y compacto, con 88 teclas, que mide 33 cm plegado y pesa solo 1,6 kg, con funcionalidad optimizada...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
                         </div>
                     </div>
                 </div>
-                <div class="rounded-xl border border-gray-100 shadow-lg p-4 transform motion-safe:hover:scale-110 ">
-                    <div class="flex flex-col justify-around">
-                        <figure>
-                            <img src="{{asset('../images/piano-contemporaneo.jpg')}}" alt="piano contemporaneo">
-                        </figure>
-                        <div class="mt-4">
-                            <a href="#"
-                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
-                                Woman standing under blue sky
-                            </a>
-                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem blanditiis unde
-                                asperiores? Officia amet perspiciatis ad quibusdam incidunt eaque, nobis, eveniet neque
-                                porro id commodi quisquam debitis!...
-                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
-                            </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-rockjam.jpg')}}" alt="teclado rockjam">
+                    </figure>
+                    <div class="mt-4">
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Teclado moderno completo, soporte de música, y altavoces incorporados
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: RockJam</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Este teclado de piano digital contiene teclas sensibles a la velocidad que replican fielmente la sensación de un piano real, con características modernas, incluye puerto usb para que puedas tocar tus canciones favoritas...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
                         </div>
                     </div>
                 </div>
-                <div class="rounded-xl border border-gray-100 shadow-lg p-4 transform motion-safe:hover:scale-110 ">
-                    <div class="flex flex-col justify-around">
-                        <figure>
-                            <img src="{{asset('../images/piano-contemporaneo.jpg')}}" alt="piano contemporaneo">
-                        </figure>
-                        <div class="mt-4">
-                            <a href="#"
-                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
-                                Woman standing under blue sky
-                            </a>
-                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem blanditiis unde
-                                asperiores? Officia amet perspiciatis ad quibusdam incidunt eaque, nobis, eveniet neque
-                                porro id commodi quisquam debitis!...
-                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
-                            </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-rosa.jpg')}}" alt="teclado rosa">
+                    </figure>
+                    <div class="mt-4">
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Teclado rosa EK620S con kit incluido
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Eastar</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Contiene 61 teclas con tres modos de enseñanza, con un peso de sólo 3kg puede llevarse a sitio y ademas contiene...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
                         </div>
                     </div>
                 </div>
-                <div class="rounded-xl border border-gray-100 shadow-lg p-4 transform motion-safe:hover:scale-110 ">
-                    <div class="flex flex-col justify-around">
-                        <figure>
-                            <img src="{{asset('../images/piano-contemporaneo.jpg')}}" alt="piano contemporaneo">
-                        </figure>
-                        <div class="mt-4">
-                            <a href="#"
-                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
-                                Woman standing under blue sky
-                            </a>
-                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem blanditiis unde
-                                asperiores? Officia amet perspiciatis ad quibusdam incidunt eaque, nobis, eveniet neque
-                                porro id commodi quisquam debitis!...
-                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
-                            </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-roland.jpg')}}" alt="teclado roland">
+                    </figure>
+                    <div class="mt-4">
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Roland Go-61P Conecta inalámbricamente con tu smartphone, accede a contenido online y aprende más rápido
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Roland</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            **Lecciones de piano en línea gratuitas de SKOOVE incluidas** Funcionamiento totalmente inalámbrico con alimentación por pilas y conectividad Bluetooth...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-mugig.jpg')}}" alt="teclado mugig">
+                    </figure>
+                    <div class="mt-4">
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Mugig MLS-939 Kit de Piano Electrico de 61 Teclas con Pantalla LCD multifunción
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Mugig</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Por la compra del teclado se incluye: soporte del Teclado, Taburete del teclado, micrófono y soporte para Atril. El soporte para piano fácil de instalar y ajustar...
+                            <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-casio.jpg')}}" alt="teclado casio">
+                    </figure>
+                    <div class="mt-4">
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Casio CT-S200WE - Teclado de piano, Blanco
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Casio</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                        Este teclado Casio incluye 61 teclas, 400 tonos, 77 ritmos y 60 melodías,entrada USB a Host para la conexión a un ordenador. Función de Lecciones, conexión con app, salida de amplificador: 2W + 2W...
+                        <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <figure>
+                        <img src="{{asset('../images/teclado-donnerkit.jpg')}}" alt="teclado donner">
+                    </figure>
+                    <div class="mt-4">
+                        <a href="#"
+                            class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                            Donner Kit de Teclado Piano Electrico color negro con 61 Teclas 
+                        </a>
+                        <div class="my-4">
+                            <span class="text-gray-400">Marca: Donner</span>
+                        </div>
+                        <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                            Con una pantalla LCD, el teclado de piano de 61 teclas puede mostrar simple y claramente el estado de las funciones que se utilizan, y también puede proporcionar información sobre las funciones de enseñanza incorporadas....
+                        <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <button class="bg-yellow-500 rounded text-white sm:mt-4 hover:bg-yellow-300 p-3 text-center">
+                <a href="">Mostrar más</a>
+            </button>
         </div>
-
-
     </div>
 @endsection
