@@ -14,6 +14,10 @@
                 <x-jet-nav-link href="{{ route('teclados.electronicos') }}" :active="request()->routeIs('teclados.electronicos')" class="text-white">
                     {{ __('Teclados Electrónicos') }}
                 </x-jet-nav-link>
+
+                <x-jet-nav-link href="{{ route('pianos.digitales') }}" :active="request()->routeIs('pianos.digitales')" class="text-white">
+                    {{ __('Pianos digitales') }}
+                </x-jet-nav-link>
             </div>
 
             <!-- Hamburger -->
@@ -35,6 +39,10 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-jet-responsive-nav-link href="{{ route('teclados.electronicos') }}" :active="request()->routeIs('teclados.electronicos')" class="text-white">
                 {{ __('Teclados Electrónicos') }}
+            </x-jet-responsive-nav-link>
+
+            <x-jet-responsive-nav-link href="{{ route('teclados.electronicos') }}" :active="request()->routeIs('pianos.digitales')" class="text-white">
+                {{ __('Pianos Digitales') }}
             </x-jet-responsive-nav-link>
         </div>
     </div>

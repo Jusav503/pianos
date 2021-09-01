@@ -1228,6 +1228,9 @@ select {
 .mb-2 {
 	margin-bottom: 0.5rem;
 }
+.mt-7 {
+	margin-top: 1.75rem;
+}
 .block {
 	display: block;
 }
