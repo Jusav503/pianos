@@ -12,7 +12,7 @@
                 <li><a href="#08147" class="text-lg text-black">➖ ¿Qué es un piano digital?</a></li>
                 <li><a href="#40852" class="text-lg text-black">➖ ¿Dónde aprender a tocar piano digital?</a></li>
                 <li><a href="#580923" class="text-lg text-black">➖ Tipos de pianos digitales</a></li>
-                <li><a href="#" class="text-lg text-black">➖ Los mejores pianos digitales del 2021</a></li>
+                <li><a href="#92409" class="text-lg text-black">➖ Los mejores pianos digitales del 2021</a></li>
             </ul>
         </div>
         <div class="flex flex-col">
@@ -54,7 +54,113 @@
                 </div>
             </article>
 
-            
+            <article id="92409">
+                <h2 class="titles text-3xl">🔥🎹¡Los mejores pianos digitales del 2021! 🎹🔥</h2>
+                <div class="grid grid-col md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5">
+
+                    <div class="cards">
+                        <figure><img src="{{asset('../images/piano-donner.jpg')}}" alt="piano donner"></figure>
+                        <div>
+                            <a href="#"
+                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                                Piano donner con soporte de piano desmontable y pedales triple, toque de piano real
+                            </a>
+                            <div class="my-4">
+                                <span class="text-gray-400">Marca: Donner</span>
+                            </div>
+                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                                El piano eléctrico DEP-20S viene con soporte desmontable. También tiene Pedales Triples en el soporte de muebles, que incluyen Sustain Pedal, Soft Pedal y Supersonic Pedal para garantizar la calidad de su práctica...
+                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <figure><img src="{{asset('../images/piano-cantabile.jpg')}}" alt="piano cantabile"></figure>
+                        <div>
+                            <a href="#"
+                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                                Classic Cantabile DP-50 RH piano, madera de rosa, con banqueta, auriculares
+                            </a>
+                            <div class="my-4">
+                                <span class="text-gray-400">Marca: Cantabile</span>
+                            </div>
+                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                                Tanto los principiantes cómo los músicos avanzados que quieren ensayar lo ya aprendido y profundizar sus habilidades, disfrutaran mucho con este piano digital. Con su modelo DP-50 saca Classic Cantabiel un piano eléctrico al mercado que a pesar de su económico en ningún momento prescinde de la buena calidad...
+                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <figure><img src="{{asset('../images/piano-funkey.jpg')}}" alt="piano funkey"></figure>
+                        <div>
+                            <a href="#"
+                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                                FunKey DP-88 II piano digital blanco
+                            </a>
+                            <div class="my-4">
+                                <span class="text-gray-400">Marca: FunKey</span>
+                            </div>
+                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                                Con sus 88 teclas de estilo piano, 360 sonidos, acompañamiento automático con 160 ritmos de acompañamiento, 80 canciones demo, función de aprendizaje, reproductor de MP3 y potentes altavoces estéreo, establece nuevos estándares en su rango de precios y entusiasma a pianistas noveles y experimentados...
+                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <figure><img src="{{asset('../images/piano-korg.jpg')}}" alt="piano korg"></figure>
+                        <div>
+                            <a href="#"
+                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                                Korg B2SP BK - Kit de piano digital negro
+                            </a>
+                            <div class="my-4">
+                                <span class="text-gray-400">Marca: Korg</span>
+                            </div>
+                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                                El b2 está repleto de sonidos cuidadosamente seleccionados, a partir de legendarios pianos de cola de todo el mundo; incluye software y varios conectores para una experiencia de piano verdaderamente actual...
+                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cards">
+                        <figure><img src="{{asset('../images/piano-homcom.jpg')}}" alt="piano homcom"></figure>
+                        <div>
+                            <a href="#"
+                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                                HOMCOM Piano de Cola Electrónico 30 Teclas con Atril Taburete Piano para Niños de Contrachapado
+                            </a>
+                            <div class="my-4">
+                                <span class="text-gray-400">Marca: HOMCOM</span>
+                            </div>
+                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                                Tiene un aspecto elegante, réplica de los pianos de cola de toda la vida, y cuenta con 30 teclas que producen una melodía encantadora para despertar el interés por la música de los más pequeños...
+                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <figure><img src="{{asset('../images/teclado-arius.jpg')}}" alt="piano yamaha arius"></figure>
+                        <div>
+                            <a href="#"
+                                class="block text-blue-500 font-semibold mb-2 text-lg md:text-base lg:text-lg">
+                                Yamaha Arius YDP-144 - Piano digital clásico y elegante para estudiantes o aficionados
+                            </a>
+                            <div class="my-4">
+                                <span class="text-gray-400">Marca: Yamaha</span>
+                            </div>
+                            <div class="text-gray-600 text-sm block md:text-xs lg:text-sm">
+                                Con tres pedales, muestra de liberación suave de teclas, polifonía de 192 voces y optimizador estereofónico, el Yamaha Arius YDP-144 ofrece lo que necesitas para disfrutar de una buena experiencia pianística para dar tus primeros pasos en el piano, con un diseño compacto y moderno....
+                                <a href="" class="mt-4 w-full text-blue-400 text-lg">ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </div>
     </div>
 @endsection

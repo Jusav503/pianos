@@ -41,7 +41,7 @@
                 {{ __('Teclados Electrónicos') }}
             </x-jet-responsive-nav-link>
 
-            <x-jet-responsive-nav-link href="{{ route('teclados.electronicos') }}" :active="request()->routeIs('pianos.digitales')" class="text-white">
+            <x-jet-responsive-nav-link href="{{ route('pianos.digitales') }}" :active="request()->routeIs('pianos.digitales')" class="text-white">
                 {{ __('Pianos Digitales') }}
             </x-jet-responsive-nav-link>
         </div>
